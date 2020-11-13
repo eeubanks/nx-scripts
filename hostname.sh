@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script usage example
+# sudo ./hostname.sh mynewhostname
+# sudo ./hostname.sh devgolang01
+
 # AUTHOR NOTES:
 # [+] This script must be run as root.
 # [+] Thanks to jimbalaya71 --> https://gist.github.com/alateas/3436036
