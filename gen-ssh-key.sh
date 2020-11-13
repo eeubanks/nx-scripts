@@ -15,5 +15,5 @@ fi
 
 email_addr=$1
 ssh-keygen -t ed25519 -C "$email_addr"
-ssh-add ~/.ssh/id_rsa
-echo "New SSH key added: ~/.ssh/id_rsa"
+ssh-add ~/.ssh/ssh-ed25519
+echo "New SSH key added: ~/.ssh/ssh-ed25519"
