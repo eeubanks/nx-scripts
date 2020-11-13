@@ -2,7 +2,6 @@
 
 # AUTHOR NOTES:
 # [+] This script must be run as root.
-# [+] This script must have executable permissions to run.
 # [+] Thanks to jimbalaya71 --> https://gist.github.com/alateas/3436036
 
 if [ ! -n "$1" ] ; then
