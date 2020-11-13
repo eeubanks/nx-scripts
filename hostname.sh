@@ -14,7 +14,7 @@ if [ ! -n "$1" ] ; then
 fi
 
 if [ "$(id -u)" != "0" ] ; then
-	echo "Sorry, you are not root."
+	echo "You must be root to run this script."
 	exit 2
 fi
 
