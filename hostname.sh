@@ -30,4 +30,7 @@ sudo sed -i "s/$CUR_HOSTNAME/$NEW_HOSTNAME/g" /etc/hostname
 
 # Display new hostname
 echo "The new hostname is $NEW_HOSTNAME"
-echo "Please restart your machine at your convienience."
+
+# Restart the machine
+echo "Rebooting to apply changes... Please wait."
+reboot
